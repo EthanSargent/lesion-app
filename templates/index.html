@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Adder</title>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Upload an image</h1>
+
+   <form action="{{ url_for('upload_img')}}"method="post" enctype="multipart/form-data">
+        <input type="file" name="pic" accept="image/*" required="required"/>
+        <input type='submit'>
+    </form>
+ </div>
+
+  <br>
+   <br>
+
+
+</body>
+</html>
