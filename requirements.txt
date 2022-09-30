@@ -45,7 +45,7 @@ ipywidgets==7.5.0
 itsdangerous==1.1.0
 jedi==0.14.1
 Jinja2==2.10.1
-joblib==0.13.2
+joblib==1.2.0
 jsonpatch==1.16
 jsonpointer==1.10
 jsonschema==3.0.1
